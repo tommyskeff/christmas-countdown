@@ -6,6 +6,8 @@
     background-position: center;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
+    position: fixed;
 }
 
 .b-cdn {
@@ -18,6 +20,13 @@
     font-family: "Exo";
     text-align: center;
     color: rgba(245, 245, 245, 0.925);
+}
+
+@media only screen and (max-width: 580px) {
+    .b-cdn {
+        top: 15vh;
+        height: 30vh;
+    }
 }
 
 .b-cdn ul {

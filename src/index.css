@@ -9,6 +9,8 @@ body {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  -webkit-scrollbar: pseudo-selector;
+  scrollbar-width: none;
   user-select: none;
 }
 
