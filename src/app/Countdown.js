@@ -76,7 +76,7 @@ const Countdown = ({ countdownTimestamp, units }) => {
         const interval = setInterval(run, 1000);
 
         return () => clearInterval(interval);
-    });
+    }, []);
 
     if (loading) {
         return null;
