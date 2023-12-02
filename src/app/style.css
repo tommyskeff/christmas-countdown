@@ -23,6 +23,7 @@
 .b-app {
     display: inline-block;
     background-image: url("../media/background.png");
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
