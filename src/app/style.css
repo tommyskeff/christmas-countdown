@@ -35,6 +35,8 @@
     flex-wrap: wrap;
     justify-content: center;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .b-cdn-elmnt {
@@ -45,6 +47,7 @@
     margin-left: 5vw;
     margin-right: 5vw;
     transition: transform 0.15s ease;
+    text-shadow: 1px 1px #ff0000;
 }
 
 .b-cdn-elmnt-flash {
