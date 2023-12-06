@@ -10,7 +10,7 @@ const UNITS = [
   ["SECONDS", 1000]
 ];
 
-const COUNTDOWN_TIMESTAMP = 1703462400000;
+const COUNTDOWN_TIMESTAMP = 1702530000;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
