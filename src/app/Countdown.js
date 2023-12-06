@@ -98,7 +98,7 @@ const Countdown = ({ countdownTimestamp, units }) => {
     return (
         <div className="b-cdn">
             <ul>{elements}</ul>
-            <p className={`b-cdn-text ${textAnimating ? 'b-cdn-text-shake' : ''}`}>Until Christmas...</p>
+            <p className={`b-cdn-text ${textAnimating ? 'b-cdn-text-shake' : ''}`}>Until Hanukkah...</p>
         </div>
     );
 };
